@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAY - Explorer of the World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <!-- Floating natural elements -->
+  <div class="floating-elements">
+    <div class="float-el leaf" style="--x: 10%; --y: 20%; --duration: 8s; --delay: 0s;">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 2C20 2 8 14 8 24c0 6.627 5.373 12 12 12s12-5.373 12-12C32 14 20 2 20 2z" fill="currentColor" opacity="0.3"/><path d="M20 8v24M14 18c3 2 6 2 12 0" stroke="currentColor" stroke-width="1.5" opacity="0.4"/></svg>
+    </div>
+    <div class="float-el drop" style="--x: 80%; --y: 15%; --duration: 10s; --delay: 2s;">
+      <svg viewBox="0 0 30 40" fill="none"><path d="M15 3C15 3 3 18 3 26c0 6.627 5.373 12 12 12s12-5.373 12-12C27 18 15 3 15 3z" fill="currentColor" opacity="0.25"/></svg>
+    </div>
+    <div class="float-el leaf" style="--x: 25%; --y: 70%; --duration: 9s; --delay: 1s;">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 2C20 2 8 14 8 24c0 6.627 5.373 12 12 12s12-5.373 12-12C32 14 20 2 20 2z" fill="currentColor" opacity="0.2"/><path d="M20 8v24M14 18c3 2 6 2 12 0" stroke="currentColor" stroke-width="1.5" opacity="0.3"/></svg>
+    </div>
+    <div class="float-el drop" style="--x: 70%; --y: 65%; --duration: 11s; --delay: 3s;">
+      <svg viewBox="0 0 30 40" fill="none"><path d="M15 3C15 3 3 18 3 26c0 6.627 5.373 12 12 12s12-5.373 12-12C27 18 15 3 15 3z" fill="currentColor" opacity="0.2"/></svg>
+    </div>
+    <div class="float-el leaf" style="--x: 90%; --y: 45%; --duration: 7s; --delay: 4s;">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 2C20 2 8 14 8 24c0 6.627 5.373 12 12 12s12-5.373 12-12C32 14 20 2 20 2z" fill="currentColor" opacity="0.25"/><path d="M20 8v24M14 18c3 2 6 2 12 0" stroke="currentColor" stroke-width="1.5" opacity="0.35"/></svg>
+    </div>
+    <div class="float-el drop" style="--x: 45%; --y: 85%; --duration: 12s; --delay: 1.5s;">
+      <svg viewBox="0 0 30 40" fill="none"><path d="M15 3C15 3 3 18 3 26c0 6.627 5.373 12 12 12s12-5.373 12-12C27 18 15 3 15 3z" fill="currentColor" opacity="0.15"/></svg>
+    </div>
+    <div class="float-el spark" style="--x: 55%; --y: 30%; --duration: 6s; --delay: 2.5s;">
+      <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="3" fill="currentColor" opacity="0.4"/></svg>
+    </div>
+    <div class="float-el spark" style="--x: 15%; --y: 50%; --duration: 5s; --delay: 0.5s;">
+      <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="2" fill="currentColor" opacity="0.3"/></svg>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="landing-container">
+    <div class="typewriter-area">
+      <p id="typewriter-text" class="typewriter-text"></p>
+      <span id="cursor" class="cursor">|</span>
+    </div>
+    <a href="main.html" id="enter-btn" class="enter-btn">
+      <span>探索更多</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  <script src="js/typewriter.js"></script>
+</body>
+</html>
