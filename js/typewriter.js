@@ -31,8 +31,7 @@
   var el = document.getElementById("typewriter-text");
   var btn = document.getElementById("enter-btn");
   if (!el || !btn) return;
-  var chars = ["\u4f60","\u597d","\uff0c","\u6211","\u662f","\u848f","\u54e5","\uff0c","\u4e00","\u4e2a","\u5bf9","\u4e16","\u754c","\u5145","\u6ee1","\u597d","\u5947","\u7684","\u63a2","\u9669","\u5bb6","\u3002"];
-  var idx = 0;
+  var chars = "你好，我是杨瑷源，一个对世界充满好奇的探险家。".split("");
   function typeChar() {
     if (idx < chars.length) {
       el.textContent = el.textContent + chars[idx];
