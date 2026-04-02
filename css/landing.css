@@ -7,7 +7,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #e8f5e9 0%, #e0f7fa 30%, #f1f8e9 60%, #e0f2f1 100%);
-  font-family: 'Poppins', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', sans-serif;
   overflow: hidden;
   position: relative;
 }
@@ -24,7 +24,10 @@ body {
 .star {
   position: absolute;
   border-radius: 50%;
-  animation: twinkle var(--dur) ease-in-out var(--del) infinite alternate;
+  animation-name: twinkle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .star.small {
@@ -82,7 +85,10 @@ body {
 .bokeh {
   position: absolute;
   border-radius: 50%;
-  animation: floatBokeh var(--dur) ease-in-out var(--del) infinite alternate;
+  animation-name: floatBokeh;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   pointer-events: none;
 }
 
@@ -109,7 +115,7 @@ body {
 }
 
 .typewriter-text {
-  font-family: 'Noto Serif SC', 'PingFang SC', 'Microsoft YaHei', serif;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', serif;
   font-size: 2.2rem;
   color: #2c5f4a;
   font-weight: 600;
