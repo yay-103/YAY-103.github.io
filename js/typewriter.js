@@ -32,6 +32,7 @@
   var btn = document.getElementById("enter-btn");
   if (!el || !btn) return;
   var chars = "你好，我是杨瑷源，一个对世界充满好奇的探险家。".split("");
+  var idx = 0;
   function typeChar() {
     if (idx < chars.length) {
       el.textContent = el.textContent + chars[idx];
