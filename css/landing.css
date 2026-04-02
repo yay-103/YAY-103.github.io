@@ -109,17 +109,18 @@ body {
 }
 
 .typewriter-text {
-  font-family: 'Caveat', cursive;
-  font-size: 2.4rem;
+  font-family: 'Noto Serif SC', 'PingFang SC', 'Microsoft YaHei', serif;
+  font-size: 2.2rem;
   color: #2c5f4a;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 2px;
   line-height: 1.6;
   text-shadow: 0 1px 6px rgba(255,255,255,0.5);
 }
 
 .cursor {
-  font-family: 'Caveat', cursive;
-  font-size: 2.4rem;
+  font-family: 'Noto Serif SC', 'PingFang SC', 'Microsoft YaHei', serif;
+  font-size: 2.2rem;
   color: #E8913A;
   animation: blink 0.8s step-end infinite;
   margin-left: 2px;
